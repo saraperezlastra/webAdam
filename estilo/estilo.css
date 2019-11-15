@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #020C14;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url(../img/forest.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    width: 70%;
+    max-width: 1000px;
+}
+
+.grid {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #020C14;
+}
+
+.grid1 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.grid2 {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+/*
+    {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+*/
+
+
+#circulo1 {
+    position: relative;
+    width: calc(30px + (250 - 30) * ((100vw - 320px) / (1920 - 320)));
+    height: calc(30px + (250 - 30) * ((100vw - 320px) / (1920 - 320)));
+    border-radius: 50%;
+    border: 5px solid #B2CC86;
+    background: #020C14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: calc(20px + (100 - 20) * ((100vw - 320px) / (1920 - 320))) 0 calc(50px + (200 - 50) * ((100vw - 320px) / (1920 - 320))) 0;
+}
+
+
+.circulointerno {
+    width: calc(30px + (200 - 30) * ((100vw - 320px) / (1920 - 320)));
+    height: calc(30px + (200 - 30) * ((100vw - 320px) / (1920 - 320)));
+    border-radius: 50%;
+    border: 2px solid #F8FCFF;
+    background: #020C14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color: #F7FCFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 70px;
+
+}
+
+p1 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
+    color: #F7FCFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+
+p2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color: #F7FCFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+
+
+
+.versionesmarca {
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+    right: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+.tipografiaycolores {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+    right: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+    
+
+}
+
+
+.imgtipografia {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+    right: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+   
+    
+}
+
+.tipologo {
+    width: 200px;
+}
+
+.textologo {
+    width: 200px;
+}
+
+.construcciondiv {
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+    right: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+
+}
+
+.areadeprotecciondiv {
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+    right: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+.variacion1 {
+    width: 500px;
+    height: auto;
+}
+
+.variacion2 {
+    width: 500px;
+    height: auto;
+}
+
+.variacion3 {
+    width: 500px;
+    height: auto;
+}
+
+
+
+
+
+section {
+    position: absolute;
+    top: 100vh;
+    background-color: #020C14;
+}
+
+.intro {
+    display: none;
+    right: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+.variacionesdemarca {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    right: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 20px;
+}
+
+.variacion1{
+    margin: 20px;
+}
+
+
+.variacion2{
+    margin: 20px;
+}
+
+.variacion3{
+    margin: 20px;
+}
+
+
+.element.style {
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+    right: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .grid1 {
+        flex-direction: column;
+
+
+    }
+
+    .grid2 {
+        flex-direction: column;
+
+    }
+}
